@@ -1,0 +1,16 @@
+export interface StoNotificationInterface {
+    id: number,
+    message: string | null,
+    amount: number | null,
+    fiat_type: string | null,
+    from_user_id: number | null,
+    to_user_id: number | null,
+    trnx_id: string | null,
+    notification_type: string | null,
+    coin_symbol: string | null,
+    coin_id: number | null,
+    wallet_address: string | null,
+    status: number | null,
+    created_at: Date,
+    updated_at: Date,
+}
